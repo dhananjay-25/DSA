@@ -25,6 +25,6 @@ int main(){
         scanf("%d", &arr[i]);
     }
     int max= largest_elem(arr, n);
-    printf("The cave with highest number of coins is %d", max);
+    printf("The cave with highest number of coins is %d \n", max);
     return 0;
 }
